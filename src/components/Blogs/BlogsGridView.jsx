@@ -31,7 +31,7 @@ const BlogsGridView = () => {
                         <a className="date" href={() => false}>
                           <i className="las la-stopwatch"></i> 10 June 2023
                         </a>
-                        <a className="author" href="javascript:void(0)">
+                        <a className="author" href={() => false}>
                           <i className="las la-user"></i> kanlyte
                         </a>
                       </div>
@@ -63,7 +63,7 @@ const BlogsGridView = () => {
                         <a className="date" href={() => false}>
                           <i className="las la-stopwatch"></i> 5 Aug 2023
                         </a>
-                        <a className="author" href="javascript:void(0)">
+                        <a className="author" href={() => false}>
                           <i className="las la-user"></i> C.E.O
                         </a>
                       </div>
@@ -123,10 +123,10 @@ const BlogsGridView = () => {
                     </div>
                     <div className="blog-content">
                       <div className="meta-info">
-                        <a className="date" href="javascript:void(0)">
+                        <a className="date" href={() => false}>
                           <i className="las la-stopwatch"></i> 10 June 2023
                         </a>
-                        <a className="author" href="javascript:void(0)">
+                        <a className="author" href={() => false}>
                           <i className="las la-user"></i> Kanlyte
                         </a>
                       </div>
@@ -154,10 +154,10 @@ const BlogsGridView = () => {
                     </div>
                     <div className="blog-content">
                       <div className="meta-info">
-                        <a className="date" href="javascript:void(0)">
+                        <a className="date" href={() => false}>
                           <i className="las la-clock"></i> 5 Aug 2023
                         </a>
-                        <a className="author" href="javascript:void(0)">
+                        <a className="author" href={() => false}>
                           <i className="las la-user"></i> Kanlyte
                         </a>
                       </div>
@@ -185,10 +185,10 @@ const BlogsGridView = () => {
                     </div>
                     <div className="blog-content">
                       <div className="meta-info">
-                        <a className="date" href="javascript:void(0)">
+                        <a className="date" href={() => false}>
                           <i className="las la-clock"></i> 03 Nov 2023
                         </a>
-                        <a className="author" href="javascript:void(0)">
+                        <a className="author" href={() => false}>
                           <i className="las la-user"></i> Kanlyte Uganda
                         </a>
                       </div>

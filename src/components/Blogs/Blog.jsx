@@ -91,7 +91,7 @@ const Blog = () => {
                     <div className="desc-top">
                       <h6>Okwi John</h6>
                       <span className="date">28 Dec 2023</span>
-                      <a href="javascript:void(0)" class="reply-link">
+                      <a href="" className="reply-link">
                         <i className="las la-reply"></i>Reply
                       </a>
                     </div>
@@ -106,7 +106,7 @@ const Blog = () => {
                     <div class="desc-top">
                       <h6>Atai Samuel</h6>
                       <span class="date">25 Mar 2023</span>
-                      <a href="javascript:void(0)" class="reply-link">
+                      <a href="#" class="reply-link">
                         <i class="las la-reply"></i>Reply
                       </a>
                     </div>
@@ -176,9 +176,7 @@ const Blog = () => {
                   <div className="single-popular-feed">
                     <div className="feed-desc">
                       <h6 className="post-title">
-                        <a href="blog-single.html">
-                          How Kanlyte Uganda Started
-                        </a>
+                        <a href="/README.mdblog">How Kanlyte Uganda Started</a>
                       </h6>
                       <span className="time">
                         <i className="las la-calendar"></i> 05th Nov 2023
@@ -215,33 +213,33 @@ const Blog = () => {
                 <h5 className="widget-title">Categories</h5>
                 <ul className="custom">
                   <li>
-                    <a href="javascript:void(0)">Creative</a>
+                    <a href={() => false}>Creative</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Technology</a>
+                    <a href={() => false}>Technology</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Startup</a>
+                    <a href={() => false}>Startup</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Branding</a>
+                    <a href={() => false}>Branding</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Web Design</a>
+                    <a href={() => false}>Web Design</a>
                   </li>
                 </ul>
               </div>
               <div className="widget popular-tag-widget">
                 <h5 className="widget-title">Popular Tags</h5>
                 <div className="tags">
-                  <a href="javascript:void(0)">Creative</a>
-                  <a href="javascript:void(0)">Consultation</a>
-                  <a href="javascript:void(0)">Case</a>
-                  <a href="javascript:void(0)">Design</a>
-                  <a href="javascript:void(0)">Ui/Ux</a>
-                  <a href="javascript:void(0)">Graphics Design</a>
-                  <a href="javascript:void(0)">Popular</a>
-                  <a href="javascript:void(0)">Marketing</a>
+                  <a href={() => false}>Creative</a>
+                  <a href={() => false}>Consultation</a>
+                  <a href={() => false}>Case</a>
+                  <a href={() => false}>Design</a>
+                  <a href={() => false}>Ui/Ux</a>
+                  <a href={() => false}>Graphics Design</a>
+                  <a href={() => false}>Popular</a>
+                  <a href={() => false}>Marketing</a>
                 </div>
               </div>
             </div>

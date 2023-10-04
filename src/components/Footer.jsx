@@ -23,7 +23,7 @@ const Footer = () => {
                   <h4 className="social-title">Follow Us On:</h4>
                   <ul className="social">
                     <li>
-                      <a href="javascript:void(0)">
+                      <a href={() => false}>
                         <i className="lab la-facebook-f"></i>
                       </a>
                     </li>
@@ -33,17 +33,17 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">
+                      <a href={() => false}>
                         <i className="lab la-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">
+                      <a href={() => false}>
                         <i className="lab la-whatsapp"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">
+                      <a href={() => false}>
                         <i className="lab la-youtube"></i>
                       </a>
                     </li>
@@ -55,16 +55,16 @@ const Footer = () => {
                   <h3>Solutions</h3>
                   <ul>
                     <li>
-                      <a href="javascript:void(0)">School Websites</a>
+                      <a href={() => false}>School Websites</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">short courses</a>
+                      <a href={() => false}>short courses</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">WordPress Customization</a>
+                      <a href={() => false}>WordPress Customization</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">App development</a>
+                      <a href={() => false}>App development</a>
                     </li>
                   </ul>
                 </div>
@@ -74,13 +74,13 @@ const Footer = () => {
                   <h3>Support</h3>
                   <ul>
                     <li>
-                      <a href="javascript:void(0)">Pricing</a>
+                      <a href={() => false}>Pricing</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">Documentation</a>
+                      <a href={() => false}>Documentation</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">about Us</a>
+                      <a href="/about-us">about Us</a>
                     </li>
                     <li>
                       <a href="/contact-us">Contact us</a>
