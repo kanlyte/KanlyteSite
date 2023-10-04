@@ -26,7 +26,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">
+                      <a>
                         <i className="lab la-twitter"></i>
                       </a>
                     </li>

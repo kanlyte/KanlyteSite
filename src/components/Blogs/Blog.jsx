@@ -91,7 +91,7 @@ const Blog = () => {
                     <div className="desc-top">
                       <h6>Okwi John</h6>
                       <span className="date">28 Dec 2023</span>
-                      <a href="" className="reply-link">
+                      <a href={() => false} className="reply-link">
                         <i className="las la-reply"></i>Reply
                       </a>
                     </div>
@@ -106,7 +106,7 @@ const Blog = () => {
                     <div class="desc-top">
                       <h6>Atai Samuel</h6>
                       <span class="date">25 Mar 2023</span>
-                      <a href="#" class="reply-link">
+                      <a href={() => false} class="reply-link">
                         <i class="las la-reply"></i>Reply
                       </a>
                     </div>
@@ -176,7 +176,7 @@ const Blog = () => {
                   <div className="single-popular-feed">
                     <div className="feed-desc">
                       <h6 className="post-title">
-                        <a href="/README.mdblog">How Kanlyte Uganda Started</a>
+                        <a href="/blog">How Kanlyte Uganda Started</a>
                       </h6>
                       <span className="time">
                         <i className="las la-calendar"></i> 05th Nov 2023
