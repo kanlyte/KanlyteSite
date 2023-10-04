@@ -1,8 +1,6 @@
 import React from "react";
 
 const Footer = () => {
-  const year = new Date();
-
   return (
     <footer className="footer section">
       <div className="footer-top">

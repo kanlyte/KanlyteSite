@@ -5,7 +5,7 @@ const ScrollToTop = () => {
     window.scrollTo(0, 0);
   };
   return (
-    <a href="#" className="scroll-top">
+    <a onClick={scrollToTop} className="scroll-top">
       <i className="las la-angle-up"></i>
     </a>
   );

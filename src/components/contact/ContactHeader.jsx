@@ -42,7 +42,7 @@ const ContactHeader = () => {
                     <li className="nav-item">
                       <a
                         className="dd-menu collapsed"
-                        href="javascript:void(0)"
+                        href={() => false}
                         data-bs-toggle="collapse"
                         data-bs-target="#submenu-1-1"
                         aria-controls="navbarSupportedContent"
@@ -69,7 +69,7 @@ const ContactHeader = () => {
                     <li className="nav-item">
                       <a
                         className="dd-menu active collapsed"
-                        href="javascript:void(0)"
+                        href={() => false}
                         data-bs-toggle="collapse"
                         data-bs-target="#submenu-1-2"
                         aria-controls="navbarSupportedContent"
