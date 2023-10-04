@@ -73,6 +73,7 @@ const Header = () => {
                       </li>
                       <li className="nav-item">
                         <a
+                          href={() => false}
                           className="dd-menu collapsed"
                           data-bs-toggle="collapse"
                           data-bs-target="#submenu-1-2"

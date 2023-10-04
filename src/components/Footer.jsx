@@ -26,7 +26,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a href={() => false}>
                         <i className="lab la-twitter"></i>
                       </a>
                     </li>
@@ -126,7 +126,7 @@ const Footer = () => {
               <div className="col-lg-6 col-md-6 col-12">
                 <p className="copyright-owner">
                   Designed and Developed by{" "}
-                  <a href="" rel="nofollow" target="_blank">
+                  <a href="/" rel="nofollow" target="_blank">
                     Kanlyte Uganda
                   </a>
                 </p>
