@@ -15,7 +15,7 @@ const WebRoutes = () => {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/blog" element={<SingleBlog />} />
         <Route path="/blog-grid" element={<BlogsGridView />} />
-        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
         <Route path={"*" || "/404"} element={<Page404 />} />
       </Routes>
     </BrowserRouter>

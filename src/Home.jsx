@@ -11,6 +11,7 @@ import PreLoader from "./components/PreLoader";
 import styled from "styled-components";
 import FAQS from "./pages/FAQS";
 import OurClients from "./pages/OurClients";
+import Achievments from "./pages/Achievments";
 
 const Home = () => {
   const [seeLoader, setSeeLoader] = useState(true);
@@ -26,6 +27,7 @@ const Home = () => {
         <HeroArea />
         <OurServices />
         <OurLatestWork />
+        <Achievments />
         <BlogGrid />
         <BTeam />
         <FAQS />

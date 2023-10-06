@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
+      name="keywords"
+      content="kanlytesite.com - Software Company | Youtuber | Freelancer | Mobile App Developer | API Developer | Internship Training | Website Design |Programming | Short Course Programs| Tutorials | Computer Courses "
+    />
+    <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="kanlytesite.com - Software Company | Youtuber | Freelancer | Mobile App Developer | API Developer | Internship Training | Website Design | Programming | Short Course Programs | Programming Tutorials | Computer Courses "
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>React App</title>
+    <title>Kanlyte Uganda || Software Company</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -25,6 +29,44 @@
     <link rel="stylesheet" href="./css/tiny-slider.css" />
     <link rel="stylesheet" href="./css/glightbox.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
+
+    <script>
+      var url = "./js/shopifyWidget36dc.js";
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = url;
+      var options = {
+        enabled: true,
+        chatButtonSetting: {
+          backgroundColor: "#66cc24",
+          ctaText: "Whatsapp Us",
+          borderRadius: "4",
+          marginLeft: "6",
+          marginBottom: "50",
+          marginRight: "50",
+          position: "left",
+        },
+        brandSetting: {
+          brandName: "Kanlyte Uganda",
+          brandSubTitle: "Typically replies within a second",
+          brandImg: "./uploads/klogo.jpg",
+          welcomeText:
+            "Hi there!\nHow can I help you?\nWe are here to serve you better, and we want you to know that your happiness is our top priority.",
+          messageText: "Hello, I have a question about Kanlyte Uganda",
+          backgroundColor: "#66cc24",
+          ctaText: "Start Chat",
+          borderRadius: "4",
+          autoShow: false,
+          phoneNumber: "256778089708",
+        },
+      };
+      s.onload = function () {
+        CreateWhatsappChatWidget(options);
+      };
+      var x = document.getElementsByTagName("script")[0];
+      x.parentNode.insertBefore(s, x);
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

@@ -5288,3 +5288,95 @@ blockquote span {
 .footer .copyright-area p a:hover {
   color: #66cc24;
 }
+/*======================================
+    counter CSS
+========================================*/
+.our-achievement {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 130px 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .our-achievement {
+    padding: 80px 0;
+  }
+}
+@media (max-width: 767px) {
+  .our-achievement {
+    padding: 60px 0;
+  }
+}
+
+.our-achievement .title h2 {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.our-achievement .title p {
+}
+
+.our-achievement .single-achievement {
+  margin-top: 50px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.our-achievement .single-achievement h3 {
+  font-size: 35px;
+  font-weight: 800;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.our-achievement .single-achievement p {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+@media (max-width: 767px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
+  .our-achievement .title h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .our-achievement .single-achievement {
+    margin-top: 30px;
+  }
+  .our-achievement .single-achievement h3 {
+    font-size: 28px;
+  }
+}
+.counter-shape1 {
+  height: 370px;
+  width: 390px;
+  background: transparent;
+  border: 2px solid #66cc24;
+  position: absolute;
+  transform: rotate(33deg);
+  border-radius: 10px;
+  left: 0px;
+  bottom: -110px;
+}
+.counter-shape2 {
+  height: 100px;
+  width: 130px;
+  background: rgba(225, 225, 225, 0.2);
+  position: absolute;
+  transform: rotate(50deg);
+  border-radius: 10px;
+  right: -60px;
+  bottom: 80px;
+}
+.counter-shape3 {
+  height: 130px;
+  width: 160px;
+  background: transparent;
+  border: 1px solid #66cc24;
+  position: absolute;
+  transform: rotate(50deg);
+  border-radius: 10px;
+  right: -60px;
+  bottom: 55px;
+}
