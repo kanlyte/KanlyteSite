@@ -12,6 +12,7 @@ import styled from "styled-components";
 import FAQS from "./pages/FAQS";
 import OurClients from "./pages/OurClients";
 import Achievments from "./pages/Achievments";
+import OurPricing from "./pages/OurPricing";
 
 const Home = () => {
   const [seeLoader, setSeeLoader] = useState(true);
@@ -27,6 +28,7 @@ const Home = () => {
         <HeroArea />
         <OurServices />
         <OurLatestWork />
+        <OurPricing />
         <Achievments />
         <BlogGrid />
         <BTeam />

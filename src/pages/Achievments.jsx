@@ -50,11 +50,11 @@ const Achievments = () => {
                 >
                   <Countup
                     className="counter"
-                    end={1000}
+                    end={15}
                     duration={3}
                     suffix="+"
                   />
-                  <p>Internet Package</p>
+                  <p>ongoing Projects</p>
                 </div>
               </div>
             </div>

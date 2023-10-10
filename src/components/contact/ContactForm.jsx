@@ -1,4 +1,6 @@
+import { TextField } from "@mui/material";
 import React from "react";
+import styled from "styled-components";
 
 const ContactForm = () => {
   return (
@@ -40,42 +42,46 @@ const ContactForm = () => {
               >
                 <div className="row">
                   <div className="col-lg-6 col-md-6 col-12">
-                    <div className="form-group">
-                      <input
-                        name="name"
-                        type="text"
-                        placeholder="Name*"
-                        required="required"
+                    <div className="">
+                      <CssTextField
+                        label="Phone Number"
+                        fullWidth
+                        id="custom-css-outlined-input-phone-2"
+                        autoComplete="off"
+                        sx={{ margin: "10px 0px" }}
                       />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-12">
-                    <div className="form-group">
-                      <input
-                        name="email"
-                        type="email"
-                        placeholder="Email*"
-                        required="required"
+                    <div className="">
+                      <CssTextField
+                        label="Phone Number"
+                        fullWidth
+                        id="custom-css-outlined-input-phone-2"
+                        autoComplete="off"
+                        sx={{ margin: "10px 0px" }}
                       />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-12">
-                    <div className="form-group">
-                      <input
-                        name="subject"
-                        type="text"
-                        placeholder="Subject*"
-                        required="required"
+                    <div className="">
+                      <CssTextField
+                        label="Phone Number"
+                        fullWidth
+                        id="custom-css-outlined-input-phone-2"
+                        autoComplete="off"
+                        sx={{ margin: "10px 0px" }}
                       />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-12">
-                    <div className="form-group">
-                      <input
-                        name="phone"
-                        type="text"
-                        placeholder="Phone*"
-                        required="required"
+                    <div className="">
+                      <CssTextField
+                        label="Phone Number"
+                        fullWidth
+                        id="custom-css-outlined-input-phone-2"
+                        autoComplete="off"
+                        sx={{ margin: "10px 0px" }}
                       />
                     </div>
                   </div>
@@ -105,5 +111,23 @@ const ContactForm = () => {
     </div>
   );
 };
-
+const CssTextField = styled(TextField)({
+  "& label.Mui-focused": {
+    color: "#66cc24",
+  },
+  "& .MuiInput-underline:after": {
+    borderBottomColor: "#66cc24",
+  },
+  "& .MuiOutlinedInput-root": {
+    "& fieldset": {
+      borderColor: "#66cc24",
+    },
+    "&:hover fieldset": {
+      borderColor: "#66cc24",
+    },
+    "&.Mui-focused fieldset": {
+      borderColor: "#66cc24",
+    },
+  },
+});
 export default ContactForm;

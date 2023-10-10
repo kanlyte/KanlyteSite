@@ -4283,7 +4283,7 @@ blockquote span {
 	Pricing Table CSS
 ===============================*/
 .pricing-table {
-  background-color: #f4f7fa;
+  background-color: #fff;
 }
 
 .pricing-table .section-title {
@@ -4321,7 +4321,7 @@ blockquote span {
   position: absolute;
   right: 20px;
   top: 18px;
-  color: #7e57ff;
+  color: #66cc24;
   font-size: 15px;
   font-weight: 500;
 }
@@ -4332,15 +4332,15 @@ blockquote span {
 }
 
 .pricing-table .single-table.middle .table-head .title {
-  border-color: #7e57ff;
-  color: #7e57ff;
+  border-color: #66cc24;
+  color: #66cc24;
 }
 
 .pricing-table .single-table .table-head .title {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 8px;
-  color: #7e57ff;
+  color: #66cc24;
   display: inline-block;
   border-radius: 30px;
 }
@@ -4358,7 +4358,7 @@ blockquote span {
   font-weight: 700;
   display: inline-block;
   position: relative;
-  padding-left: 16px;
+  padding-left: 50px;
 }
 
 .pricing-table .single-table .table-head .price .amount .currency {
@@ -4413,8 +4413,8 @@ blockquote span {
   position: absolute;
   left: 0;
   top: 0;
-  content: "\ea5a";
-  font-family: lineIcons;
+  content: "\f058";
+  font-family: "Font Awesome 6 Free";
   color: #68d585;
   font-size: 15px;
 }
@@ -4649,6 +4649,7 @@ blockquote span {
   padding: 15px 25px;
   padding-right: 40px;
   background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

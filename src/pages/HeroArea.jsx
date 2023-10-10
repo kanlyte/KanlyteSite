@@ -8,7 +8,7 @@ const HeroArea = () => {
           <div class="col-lg-5 col-md-12 col-12">
             <div class="hero-content">
               <h4 class="wow fadeInUp" data-wow-delay=".2s">
-                We Are Kanlyte Technologies
+                We Are Kanlyte Uganda
               </h4>
               <h1 class="wow fadeInUp" data-wow-delay=".4s">
                 A home of transformative technology.
