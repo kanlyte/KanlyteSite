@@ -48,8 +48,8 @@ const OurPricing = () => {
                 </ul>
               </div>
               <div className="button">
-                <a href="javascript:void(0)" className="btn">
-                  Contact Us <i className="lni lni-arrow-right"></i>
+                <a href="/contact-us" className="btn">
+                  Contact Us <i className="las la-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -79,8 +79,8 @@ const OurPricing = () => {
                 </ul>
               </div>
               <div className="button">
-                <a href="javascript:void(0)" className="btn btn-alt">
-                  COntact Us <i className="lni lni-arrow-right"></i>
+                <a href="/contact-us" className="btn btn-alt">
+                  COntact Us <i className="las la-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -109,8 +109,8 @@ const OurPricing = () => {
                 </ul>
               </div>
               <div className="button">
-                <a href="javascript:void(0)" className="btn">
-                  Contact Us <i className="lni lni-arrow-right"></i>
+                <a href="/contact-us" className="btn">
+                  Contact Us <i className="las la-arrow-right"></i>
                 </a>
               </div>
             </div>
