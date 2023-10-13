@@ -53,16 +53,10 @@ const BlogHeader = () => {
                       </a>
                       <ul className="sub-menu collapse" id="submenu-1-1">
                         <li className="nav-item">
-                          <a href="/about-us">About Us</a>
+                          <a href="/about-us">Software Development</a>
                         </li>
                         <li className="nav-item">
-                          <a href="/pricing">Our Pricing</a>
-                        </li>
-                        <li className="nav-item">
-                          <a href="/signin">Sign In</a>
-                        </li>
-                        <li className="nav">
-                          <a href="/signup">Sign Up</a>
+                          <a href="/pricing">Website design</a>
                         </li>
                       </ul>
                     </li>

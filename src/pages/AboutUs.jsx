@@ -7,6 +7,8 @@ import styled from "styled-components";
 
 import { useState } from "react";
 import ScrollToTop from "./ScrollToTop";
+import About from "./About";
+import MinipageStart from "../components/Others/MinipageStart";
 
 const AboutUs = () => {
   const [seeLoader, setSeeLoader] = useState(true);
@@ -18,6 +20,8 @@ const AboutUs = () => {
     <Container>
       {seeLoader && <PreLoader />}
       <Header />
+      <MinipageStart page="About Us" />
+      <About />
       <BTeam />
       <Footer />
       <ScrollToTop />

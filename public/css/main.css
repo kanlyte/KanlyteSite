@@ -992,8 +992,8 @@ ol {
 }
 
 .breadcrumbs .breadcrumb-nav li:after {
-  content: "\ea62";
-  font-family: lineIcons;
+  content: "\f105";
+  font-family: "Fontawesome";
   font-size: 11px;
   position: absolute;
   top: 3px;
@@ -2612,7 +2612,7 @@ ol {
 }
 
 .about .content h4 {
-  color: #7e57ff;
+  color: #66cc24;
   font-size: 13px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -2665,7 +2665,7 @@ ol {
   text-align: center;
   display: block;
   border-radius: 50%;
-  color: #7e57ff;
+  color: #66cc24;
   font-size: 11px;
   background-color: #fff;
   position: absolute;
@@ -2673,7 +2673,7 @@ ol {
   top: 0;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  background-color: #7e57ff;
+  background-color: #66cc24;
   color: #fff;
 }
 

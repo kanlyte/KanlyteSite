@@ -63,12 +63,6 @@ const Header = () => {
                           <li className="nav-item">
                             <a href="/website-design">Website Design</a>
                           </li>
-                          <li className="nav-item">
-                            <a href="/signin">Sign In</a>
-                          </li>
-                          <li className="nav-item">
-                            <a href="/signup">Sign Up</a>
-                          </li>
                         </ul>
                       </li>
                       <li className="nav-item">
