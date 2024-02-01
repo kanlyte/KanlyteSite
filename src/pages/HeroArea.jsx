@@ -17,8 +17,8 @@ const HeroArea = () => {
               Discover Excellence, Celebrate Achievement: Where Innovation and Inspiration Collide – Welcome to the Lyte Awards 2024. Apply to be part of it.
               </p>
               <div class="button wow fadeInUp" data-wow-delay=".8s">
-                <a href="/about-us" class="btn ">
-                  Discover More
+                <a href="/lyte-awards" class="btn ">
+                  Read More
                 </a>
               </div>
             </div>

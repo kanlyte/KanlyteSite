@@ -27,7 +27,7 @@ const BlogGrid = () => {
           >
             <div className="single-blog-grid">
               <div className="blog-img">
-                <a href="/blog">
+                <a href="/lyte-awards">
                   <img src="uploads/hero-image.jpg" alt="#" />
                 </a>
               </div>
