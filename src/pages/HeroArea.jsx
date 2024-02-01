@@ -8,18 +8,13 @@ const HeroArea = () => {
           <div class="col-lg-5 col-md-12 col-12">
             <div class="hero-content">
               <h4 class="wow fadeInUp" data-wow-delay=".2s">
-                We Are Kanlyte Uganda
+                Kanlyte Uganda Presents
               </h4>
               <h1 class="wow fadeInUp" data-wow-delay=".4s">
-                A home of transformative technology.
+                Lyte Awards 2024.
               </h1>
               <p class="wow fadeInUp" data-wow-delay=".6s">
-                Unleash the power of technology with our top-notch Software
-                Development services.
-                <br />
-                Our experienced team of Developers specializes in creating
-                tailord software Solutions that streamline your business
-                operations.
+              Discover Excellence, Celebrate Achievement: Where Innovation and Inspiration Collide – Welcome to the Lyte Awards 2024. Apply to be part of it.
               </p>
               <div class="button wow fadeInUp" data-wow-delay=".8s">
                 <a href="/about-us" class="btn ">
@@ -30,7 +25,7 @@ const HeroArea = () => {
           </div>
           <div class="col-lg-7 col-12">
             <div class="hero-image">
-              <img class="main-image" src="uploads/hero-image.png" alt="#" />
+              <img class="main-image" src="uploads/hero-image.jpg" alt="#" />
             </div>
           </div>
         </div>

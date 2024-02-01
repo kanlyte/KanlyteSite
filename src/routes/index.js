@@ -6,6 +6,7 @@ import SingleBlog from "../pages/SingleBlog";
 import Page404 from "../components/Others/Page404";
 import ContactUs from "../pages/ContactUs";
 import BlogsGridView from "../components/Blogs/BlogsGridView";
+import LyteAwards from "../components/Blogs/LyteAwards";
 
 const WebRoutes = () => {
   return (
@@ -14,6 +15,7 @@ const WebRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/blog" element={<SingleBlog />} />
+        <Route path="/lyte-awards" element={<LyteAwards />} />
         <Route path="/blog-grid" element={<BlogsGridView />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path={"*" || "/404"} element={<Page404 />} />

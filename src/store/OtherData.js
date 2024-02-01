@@ -36,7 +36,7 @@ export const KanlyteTeam = [
   {
     name: "Nahurira Gaston",
     role: "C.E.O",
-    // url: "https://firebasestorage.googleapis.com/v0/b/beacon-hostels.appspot.com/o/Team-images%2Fgj-01.png?alt=media&token=c9330e32-797d-4e80-bcab-277a96be0222",
+    url: "https://firebasestorage.googleapis.com/v0/b/beacon-hostels.appspot.com/o/Team-images%2FrAW%20GASTON%20DP%20DP%2015000%2028000_027.jpg?alt=media&token=224b6e11-4ac7-44d3-92f4-3cc1f5e115cb",
     fb: "https://www.facebook.com/nahurira.gaston.7",
     twitter: "https://twitter.com/gaston_lyte?t=altqfWvEkAV3kT9kBTJu0Q&s=09",
     linkedin: "https://www.linkedin.com/in/nahurira-gaston-b99210280",

@@ -21,6 +21,39 @@ const BlogGrid = () => {
           </div>
         </div>
         <div className="row">
+        <div
+            className="col-lg-4 col-md-6 col-12 wow fadeInUp"
+            data-wow-delay=".8s"
+          >
+            <div className="single-blog-grid">
+              <div className="blog-img">
+                <a href="/blog">
+                  <img src="uploads/hero-image.jpg" alt="#" />
+                </a>
+              </div>
+              <div className="blog-content">
+                <div className="meta-info">
+                  <a className="date" href={() => false}>
+                    <i className="las la-stopwatch"></i>Feb 1, 2024
+                  </a>
+                  <a className="author" href={() => false}>
+                    <i className="las la-user"></i> Kanlyte Uganda
+                  </a>
+                </div>
+                <h4>
+                  <a href="/lyte-awards">Lyte Awards 2024.</a>
+                </h4>
+                <p>
+                Discover Excellence, Celebrate Achievement: Where Innovation and Inspiration Collide – Welcome to the Lyte Awards 2024. Apply to be part of it.
+                </p>
+                <div className="button">
+                  <a href="/lyte-awards" className="btn">
+                    Read Blog
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div
             className="col-lg-4 col-md-6 col-12 wow fadeInUp"
             data-wow-delay=".4s"
@@ -82,40 +115,6 @@ const BlogGrid = () => {
                   Kanlyte Uganda limited is a technology based company which was
                   started in 2022 with an aim of creating software systems which
                   can bring civilisation to Uganda.
-                </p>
-                <div className="button">
-                  <a href="/blog" className="btn">
-                    Read Blog
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-4 col-md-6 col-12 wow fadeInUp"
-            data-wow-delay=".8s"
-          >
-            <div className="single-blog-grid">
-              <div className="blog-img">
-                <a href="/blog">
-                  <img src="uploads/blogs/blog-3.png" alt="#" />
-                </a>
-              </div>
-              <div className="blog-content">
-                <div className="meta-info">
-                  <a className="date" href={() => false}>
-                    <i className="las la-stopwatch"></i> 25 Dec 2023
-                  </a>
-                  <a className="author" href={() => false}>
-                    <i className="las la-user"></i> Kanlyte Uganda
-                  </a>
-                </div>
-                <h4>
-                  <a href="/blog">Job Advert.</a>
-                </h4>
-                <p>
-                  We are hiring A UI/UX Designer that has three Years of
-                  experience.with project achievements
                 </p>
                 <div className="button">
                   <a href="/blog" className="btn">

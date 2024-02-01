@@ -100,7 +100,7 @@ const BlogsGridView = () => {
                         </a>
                       </div>
                       <h4>
-                        <a href="/blog">Job Advert.</a>
+                        <a href="/blog">Lyte Awards 2024.</a>
                       </h4>
                       <p>
                         We are hiring A UI/UX Designer that has three Years of

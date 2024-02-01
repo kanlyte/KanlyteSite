@@ -39,7 +39,7 @@ const BlogHeader = () => {
                         About
                       </a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <a
                         className="dd-menu collapsed"
                         href={() => false}
@@ -59,7 +59,7 @@ const BlogHeader = () => {
                           <a href="/pricing">Website design</a>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <a
                         className="dd-menu active collapsed"
@@ -89,8 +89,8 @@ const BlogHeader = () => {
                   </ul>
                 </div>
                 <div className="button">
-                  <a href="/signup" className="btn">
-                    Join Our Online Classes
+                  <a href="https://forms.gle/QLc6fgB2Ym5EAjHB9" className="btn">
+                    Apply for Lyte awards
                   </a>
                 </div>
               </nav>

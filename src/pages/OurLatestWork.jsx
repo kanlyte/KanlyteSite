@@ -49,7 +49,7 @@ const OurLatestWork = () => {
           <div className="col-lg-4 col-md-6 grid-item branding marketing">
             <div className="portfolio-item-wrapper">
               <div className="portfolio-img">
-                <img src="uploads/images/pf-1.jpg" alt="" />
+                <img src="uploads/images/bd.jpg" alt="" />
               </div>
               <div class="portfolio-overlay">
                 <div className="overlay-content">
@@ -62,7 +62,7 @@ const OurLatestWork = () => {
           <div className="col-lg-4 col-md-6 grid-item marketing graphic">
             <div className="portfolio-item-wrapper">
               <div className="portfolio-img">
-                <img src="uploads/images/pf-1.jpg" alt="" />
+                <img src="uploads/images/gd.jpg" alt="" />
               </div>
               <div className="portfolio-overlay">
                 <div className="overlay-content">
@@ -88,7 +88,7 @@ const OurLatestWork = () => {
           <div className="col-lg-4 col-md-6 grid-item web">
             <div className="portfolio-item-wrapper">
               <div className="portfolio-img">
-                <img src="uploads/images/pf-1.jpg" alt="" />
+                <img src="uploads/images/wd.jpg" alt="" />
               </div>
               <div className="portfolio-overlay">
                 <div className="overlay-content">

@@ -46,27 +46,6 @@ const Header = () => {
                       </li>
                       <li className="nav-item">
                         <a
-                          className="dd-menu collapsed"
-                          href={() => false}
-                          data-bs-toggle="collapse"
-                          data-bs-target="#submenu-1-1"
-                          aria-controls="navbarSupportedContent"
-                          aria-expanded="false"
-                          aria-label="Toggle navigation"
-                        >
-                          Pages
-                        </a>
-                        <ul className="sub-menu collapse" id="submenu-1-1">
-                          <li className="nav-item">
-                            <a href="/about-us">Software Development</a>
-                          </li>
-                          <li className="nav-item">
-                            <a href="/website-design">Website Design</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="nav-item">
-                        <a
                           href={() => false}
                           className="dd-menu collapsed"
                           data-bs-toggle="collapse"
@@ -94,8 +73,8 @@ const Header = () => {
                     </ul>
                   </div>
                   <div className="button">
-                    <a href="/signup" className="btn">
-                      Join Our Online Classes
+                    <a href="https://forms.gle/QLc6fgB2Ym5EAjHB9" className="btn">
+                      Apply for Lyte awards
                     </a>
                   </div>
                 </nav>
