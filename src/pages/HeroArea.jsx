@@ -21,6 +21,11 @@ const HeroArea = () => {
                   Read More
                 </a>
               </div>
+              <div class="button wow fadeInUp" data-wow-delay=".8s">
+                <a href="https://forms.gle/QLc6fgB2Ym5EAjHB9" class="btn " id="btn-award">
+                  Apply for lyte awards
+                </a>
+              </div>
             </div>
           </div>
           <div class="col-lg-7 col-12">

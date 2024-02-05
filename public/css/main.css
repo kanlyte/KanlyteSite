@@ -1805,7 +1805,9 @@ ol {
   position: relative;
   margin-right: 40px;
 }
-
+#btn-award{
+    display: none;
+}
 .navbar-nav .nav-item:last-child {
   margin-right: 0 !important;
 }
@@ -1999,6 +2001,7 @@ ol {
   .header .button {
     display: none;
   }
+ 
 }
 
 .header .button .btn {
@@ -2743,6 +2746,11 @@ ol {
 @media (max-width: 767px) {
   .testimonials .tns-nav {
     bottom: 50px;
+  }
+  #btn-award{
+    display: block;
+    align-items: center;
+    margin-left: 20%;
   }
 }
 
