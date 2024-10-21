@@ -55,7 +55,7 @@ const ContactForm = () => {
                   <div className="col-lg-6 col-md-6 col-12">
                     <div className="">
                       <CssTextField
-                        label="Phone Number"
+                        label="Email Address"
                         fullWidth
                         id="custom-css-outlined-input-phone-2"
                         autoComplete="off"
@@ -66,7 +66,7 @@ const ContactForm = () => {
                   <div className="col-lg-6 col-md-6 col-12">
                     <div className="">
                       <CssTextField
-                        label="Phone Number"
+                        label="Subject"
                         fullWidth
                         id="custom-css-outlined-input-phone-2"
                         autoComplete="off"
@@ -77,7 +77,7 @@ const ContactForm = () => {
                   <div className="col-lg-6 col-md-6 col-12">
                     <div className="">
                       <CssTextField
-                        label="Phone Number"
+                        label="Physical Address"
                         fullWidth
                         id="custom-css-outlined-input-phone-2"
                         autoComplete="off"

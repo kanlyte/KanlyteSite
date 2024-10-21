@@ -92,7 +92,7 @@ const OurServices = () => {
               <h4 className="text-title">Short Courses</h4>
               <p>
                 We do offer short online causes in the IT field to those who
-                would want to add on thir skills.
+                would want to add on their skills.
               </p>
             </div>
           </div>
