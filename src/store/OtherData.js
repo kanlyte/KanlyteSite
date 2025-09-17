@@ -23,7 +23,7 @@ export const KanlyteTeam = [
   },
   {
     name: "Kugumikiriza Andrew",
-    role: "Graphics Designer",
+    role: "Technical Support Engineer",
     // url: "https://firebasestorage.googleapis.com/v0/b/beacon-hostels.appspot.com/o/Team-images%2Fmy%20pp2.jpg?alt=media&token=067a411b-a1a9-4499-8cf3-673b9973dfb4",
     fb: "https://www.facebook.com/kugumikiriza.andrew.9",
     twitter: "https://twitter.com/AndyReign126?s=08",
